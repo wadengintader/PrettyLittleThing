@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Star, MoveRight } from 'lucide-react';
+import { Star } from 'lucide-react';
 
 /**
  * CTAButton Component
@@ -10,7 +10,7 @@ import { Star, MoveRight } from 'lucide-react';
  * including a shimmering hover effect, star icons, and a pulsing bottom glow.
  */
 export default function CTAButton() {
-  const url = "https://gloffers.org/aff_c?offer_id=3673&aff_id=44723&source=Mars";
+  const url = "https://gloffers.org/aff_c?offer_id=364&aff_id=44723&source=Prettylittlething";
 
   const handleClick = (e: React.MouseEvent) => {
     // For Orchids preview environment
@@ -26,7 +26,7 @@ export default function CTAButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
-        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#006241] hover:bg-[#006241] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
+        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#540402] hover:bg-[#540402] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
       >
         {/* Shine Animation Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
@@ -39,7 +39,6 @@ export default function CTAButton() {
 
           <span className="text-[12px] sm:text-[14px] font-bold sm:font-black uppercase tracking-[0.08em] flex items-center gap-1.5 sm:gap-2">
             START REVIEW
-            <MoveRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:translate-x-1" />
           </span>
 
           <Star 

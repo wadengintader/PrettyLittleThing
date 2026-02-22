@@ -17,42 +17,42 @@ const AnimatedBackground = () => {
 
       <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-15">
           <Image
-            src="https://i.imgur.com/cbeiTcG.png"
+            src="https://i.imgur.com/YPVv54m.png"
             alt=""
-            width={80}
-            height={80}
-            className="absolute top-24 left-12 w-20 h-20 object-contain animate-float-gentle delay-1000"
+            width={100}
+            height={100}
+            className="absolute top-30 left-30 w-20 h-20 object-contain animate-float-gentle delay-1000"
           />
           <Image
-            src="https://i.imgur.com/t8QjExB.png"
+            src="https://i.imgur.com/3wwd4xf.png"
             alt=""
             width={160}
             height={160}
             className="absolute top-32 right-16 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/XVHfGRv.png"
+            src="https://i.imgur.com/PrV8lDj.png"
             alt=""
             width={160}
             height={160}
             className="absolute top-1/3 left-20 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/gIUTKbv.png"
+            src="https://i.imgur.com/faOzrDr.png"
             alt=""
             width={160}
             height={160}
             className="absolute top-1/2 right-24 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/etESumi.png"
+            src="https://i.imgur.com/iKvU6cL.png"
             alt=""
             width={160}
             height={160}
             className="absolute bottom-40 left-16 w-20 h-20 object-contain animate-float-gentle"
           />
           <Image
-            src="https://i.imgur.com/Fow9vBV.png"
+            src="https://i.imgur.com/xA1xNTB.png"
             alt=""
             width={80}
             height={80}
